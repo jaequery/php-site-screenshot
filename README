@@ -4,5 +4,19 @@ This will take a screenshot of a given site url and save it to the desired outpu
 
 But first, you need cutycapt and xvfb as this script relies on a headless webkit to take the screenshot: https://github.com/jaequery/cutycapt-installer-script-on-ubuntu
 
-usage: http://localhost/capture.php?url=http://www.google.com
+Second, you need to configure this script:
+
+// lib path
+$xvfb_path = '/usr/bin';
+$cutycapt_path = "/home/user/scripts/cutycapt/CutyCapt";
+
+// capture settings
+$screen = '1280x1024x24';
+$output_path = '/home/user/www/images/capture.png';
+$url = $_GET['url']; // set it however you want
+//$url = 'http://www.yahoo.com'; // set it manually
+
+Change them accordingly.
+
+To get you started, here is a simple usage: http://localhost/capture.php?url=http://www.google.com
 
