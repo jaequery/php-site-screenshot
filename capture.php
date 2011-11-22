@@ -1,7 +1,8 @@
 <?php
 
 /**
-* usage) http://localhost/capture.php?url=http://www.google.com
+* install: https://github.com/jaequery/cutycapt-installer-script-on-ubuntu
+* usage: http://localhost/capture.php?url=http://www.google.com
 */
 
 // lib path

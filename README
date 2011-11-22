@@ -1,0 +1,8 @@
+PHP-Site-Screenshot
+
+This will take a screenshot of a given site url and save it to the desired output path.
+
+But first, you need cutycapt and xvfb as this script relies on a headless webkit to take the screenshot: https://github.com/jaequery/cutycapt-installer-script-on-ubuntu
+
+usage: http://localhost/capture.php?url=http://www.google.com
+
